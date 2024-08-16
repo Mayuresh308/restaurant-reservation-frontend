@@ -1124,3 +1124,15 @@ footer .container .banner .right {
   }
 }
 /**********************************************************************************************************************/
+
+
+
+
+/* Add this CSS to your existing styles */
+
+/* Ensure input fields are responsive on smaller screens */
+@media (max-width: 600px) {
+  .reservation .container .banner .reservation_form_box form div {
+    flex-direction: column;
+  }
+}
